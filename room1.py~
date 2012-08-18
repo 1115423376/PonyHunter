@@ -10,9 +10,9 @@ number 1, blocks your escape.
 """ 
     
 move = raw_input(look())
-if move == "go south"
+if move == "go south":
     room2()
-elif move == "look"
+elif move == "look":
     look()
 else:
     print "I don't understand."

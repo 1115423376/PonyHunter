@@ -1,3 +1,4 @@
-import room1.py
+import room1
+def start():
+    room1.start()
 
-room1()

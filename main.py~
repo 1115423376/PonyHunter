@@ -1,4 +1,4 @@
-import test.py
+import test
 
 def game():
     room1()
@@ -51,5 +51,5 @@ def look(room):
         To your north a door dominated by a giant
         number 1, blocks your escape.
         """
-test()
+test.test()
 game()
