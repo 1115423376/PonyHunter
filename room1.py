@@ -12,13 +12,9 @@ def start():
     elif move == "look":
         look.look(1)
         start()
-    elif move == "shoot pony":
-        ponyAlive = game.checkPony(0)
-        if ponyAlive:
-            game.shootPony(0)
-        else:
-            print "Pony is already dead."
-            start()
+    elif move == "teabag pony":
+        print "You teabag the dead pony, giggling with glee."
+        start()
     else:
         print "I don't understand."
         start()

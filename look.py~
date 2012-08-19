@@ -13,7 +13,7 @@ def look(room):
             There is a gay pony in the middle of the
             room winking smugly at you.
             """
-        else
+        else:
             print """
             You are standing in a room painted 
             to look like a cartoon forest.
