@@ -13,9 +13,10 @@ def start():
         look.look(1)
         start()
     elif move == "shoot pony":
-        if game.checkPony(0)
+        ponyAlive = game.checkPony(0)
+        if ponyAlive:
             game.shootPony(0)
-        else
+        else:
             print "Pony is already dead."
             start()
     else:
